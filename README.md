@@ -12,6 +12,7 @@ You have `2 days` to complete this challenge from the day it is sent. Please let
 1. Start by creating a git repository on your github profile for your submission. Alternatively you can fork the following repository. `https://github.com/Viamericas/Viamericas-Technical-Challenge`
 2. If you clone the repository, make sure to change its `remote` and upload it to your github profile. Once you have completed, please email us a link to the repository.
 3. Additional points if you make modular commits and include proper commit messages along the way.
+4. Please work on the folders included, based on which part you are going to do.
 
 
 # General Instructions and Guidelines
@@ -56,7 +57,7 @@ Endpoint to list agencies.
 URL: GET `https://v45hh4g3q5.execute-api.us-east-1.amazonaws.com/Dev/agencias`
 HEADER: `Authorization Bearer [token]`
 
-# BACK-END
+# SERVER
 
 ## Instructions
 
