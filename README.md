@@ -1,8 +1,8 @@
 # Viamericas Full Stack Technical Challenge
 
-Hi! Welcome to the Viamericas Full Stack Technical Test. We are looking forward to your awesome and creative submission! 
+Hi! Welcome to the Viamericas Full Stack Technical Challenge. We are looking forward to your awesome and creative submission! 
 
-Note: Depending on the position you are applying for, you might have been asked to complete either the `server` or `front-end` or all parts of this test. In all cases you will be provided with the necessary instructions and requirements to complete the tasks.
+```Note: Depending on the position you are applying for, you might have been asked to complete either the `server` or `front-end` or all parts of this challenge. In all cases you will be provided with the necessary instructions and requirements to complete the tasks.```
 
 You have `2 days` to complete this challenge from the day it is sent. Please let us know if you need more time. 
 
