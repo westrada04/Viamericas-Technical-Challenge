@@ -91,3 +91,7 @@ We need an API to show the list of agencies. This will return all agencies in th
 
 3. List of cities.
 We need an API to show the list of cities where the agencies reside. 
+
+
+# Delivery
+Once you have completed the challenge, please send us a link to the repository by email 
