@@ -11,9 +11,7 @@ class LoginContainer extends Component {
 
     constructor(props) {
         super(props);
-
         this.handleSubmit = this.handleSubmit.bind(this);
-
         this.state = {
             username: "",
             password: "",
@@ -63,7 +61,6 @@ class LoginContainer extends Component {
     }
 
     render() {
-
         return (
             <section className="login-layout">
                 <Row>
