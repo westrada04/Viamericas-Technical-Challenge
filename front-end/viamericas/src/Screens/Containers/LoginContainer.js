@@ -17,8 +17,8 @@ class LoginContainer extends Component {
         this.state = {
             username: "",
             password: "",
-			show: false,
-			errorMessage: ""
+            show: false,
+            errorMessage: ""
         };
     }
 
@@ -36,13 +36,13 @@ class LoginContainer extends Component {
                     this.props.childProps.userHasAuthenticated(true);
                     this.props.history.push("/agencies");
                 } else {
-					this.setState({ show: true, errorMessage: response.errorMessage });
+                    this.setState({ show: true, errorMessage: response.errorMessage });
                 }
             }
         ).catch(
             error => {
-				console.log("err => ", error);
-				this.setState({ show: true, errorMessage: "Error en Login" });
+                console.log("err => ", error);
+                this.setState({ show: true, errorMessage: "Error en Login" });
             }
         )
     }
@@ -53,8 +53,8 @@ class LoginContainer extends Component {
 
     handleSubmit(event) {
         event.preventDefault();
-		this.setState({ show: false, errorMessage: "" });
-		
+        this.setState({ show: false, errorMessage: "" });
+
         let payload = {
             "username": this.state.username,
             "password": this.state.password
@@ -70,9 +70,9 @@ class LoginContainer extends Component {
                     <Col md={{ span: 6, offset: 3 }}>
                         <Card border="primary">
                             <Card.Body>
-									<Alert show={this.state.show} variant="danger">
-										<h6 className="text-center">{this.state.errorMessage}</h6>
-									</Alert>
+                                <Alert show={this.state.show} variant="danger">
+                                    <h6 className="text-center">{this.state.errorMessage}</h6>
+                                </Alert>
                                 <Card.Title className="text-center">Log In</Card.Title>
                                 <Form noValidate onSubmit={e => this.handleSubmit(e)}>
                                     <Form.Group controlId="formGroupEmail">
