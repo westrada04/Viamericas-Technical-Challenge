@@ -12,6 +12,6 @@ namespace Persistence
            : base(options)
         { }
 
-        public DbSet<Agency> Student { get; set; }
+        public DbSet<Agency> Agency { get; set; }
     }
 }
