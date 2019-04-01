@@ -12,6 +12,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using Persistence;
+using services;
 
 namespace viamericas
 {
@@ -29,6 +30,9 @@ namespace viamericas
         {
             var connection = Configuration.GetConnectionString("Dev");
             services.AddDbContext<AgencyDbContext>(options => options.UseSqlServer(connection));
+
+            services.AddTransient<IAgencyService, AgencyService>();
+        
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
         }
 
